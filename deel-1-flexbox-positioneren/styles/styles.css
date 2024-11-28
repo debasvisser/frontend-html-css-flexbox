@@ -1,9 +1,13 @@
 /*Schrijf hier jouw CSS*/
 
+/*-----------------Opdracht 1----------------------*/
+
 .opdracht-1 ul{
     display: flex;
     justify-content: space-between;
 }
+
+/*-----------------Opdracht 2----------------------*/
 
 .opdracht-2 ul{
     display: flex;
@@ -12,6 +16,8 @@
 .opdracht-2 ul li{
     flex-basis: calc(100% / 3);
 }
+
+/*-----------------Opdracht 3----------------------*/
 
 .opdracht-3 ul {
     display: flex;
@@ -30,8 +36,38 @@
     align-self: flex-end;
 }
 
+/*-----------------Opdracht 4----------------------*/
+
 .opdracht-4 ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+/*-----------------Opdracht 5----------------------*/
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.opdracht-5 ul:nth-of-type(1) {
+    align-items: flex-start;
+}
+
+.opdracht-5 ul:nth-of-type(2) {
+    align-items: center;
+}
+
+.opdracht-5 ul:nth-of-type(3) {
+    align-items: flex-end;
 }
