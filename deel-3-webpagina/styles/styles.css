@@ -1,1 +1,59 @@
-/*Schrijf hier jouw css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F3D9;
+    color: #030027;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #030027;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 40px;
+}
+
+.title-nav {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-icons {
+    display: flex;
+    list-style: none;
+    flex: 0 1 350px;
+    justify-content: space-between;
+}
+
+.nav-icons li {
+    margin: 0 10px;
+}
+
+.about {
+    padding: 40px;
+}
+
+.container-article {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.inside-article {
+    background-color: #C16E70;
+    border-radius: 5px;
+
+    /*------Had liever min-height meegegeven, maar dat is niet de opdracht. Nu valt de content uit de box als je hem verkleint-----*/
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    flex: 0 1 280px;
+    align-content: flex-end;
+}
