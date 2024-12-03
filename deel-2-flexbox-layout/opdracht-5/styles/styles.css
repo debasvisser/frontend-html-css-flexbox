@@ -1,1 +1,39 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    /*------de shorthand voor grow, shrink en basis------*/
+    flex: 0 0 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    /*------de shorthand voor grow, shrink en basis------*/
+    flex: 1 1 auto;
+}
+
+article {
+    /*------de shorthand voor grow, shrink en basis------*/
+    flex: 1 1 auto;
+    order: 2;
+}
+
+nav {
+    /*------de shorthand voor grow, shrink en basis------*/
+    flex: 0 0 20vw;
+    order: 1;
+}
+
+aside {
+    /*------de shorthand voor grow, shrink en basis------*/
+    flex: 0 0 20vw;
+    order: 3;
+}
+
+footer {
+    flex: 0 0 200px;
+}
