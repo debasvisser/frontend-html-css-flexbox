@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+/*navigatie*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 250px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+li {
+    /*om de bulletpoints weg te halen heb ik er een flex van gemaakt, zou ook met list-style kunnen */
+    display: flex;
+}
+li a {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+/*header*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    flex-grow: 3;
+}
+
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-position: center;
+    text-align: center;
+}
+
+.content-text {
+    padding: 100px;
+}
+
+
+/*content*/
+
+main {
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    gap: 25px;
+}
+.card {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.card-placeholder {
+    width: auto;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users {
+    width: 20px;
+}
+
+/*footer*/
+
+footer {
+    background: #383838;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-block: 15px;
+    font-size: 15px;
+}
