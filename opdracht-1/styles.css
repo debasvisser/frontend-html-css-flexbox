@@ -1,0 +1,87 @@
+/*Ik zag in het voorbeeld geen punt voor de lijst elementen, heb ze daarom weggehaald*/
+
+ul {
+    list-style: none;
+}
+
+/*Opdracht 1a*/
+
+.navbar-one ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 1b*/
+
+.navbar-two ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Opdracht 1c*/
+
+.navbar-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-three div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navbar-three ul {
+    display: flex;
+}
+
+/*Opdracht 1d*/
+
+.navbar-four,
+.navbar-four div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-four ul {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar-four ul:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Opdracht 1e*/
+
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-five div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navbar-five ul {
+    display: flex;
+}
+
+.navbar-five ul:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}

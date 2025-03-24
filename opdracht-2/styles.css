@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+/*navigatie*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 250px;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+li {
+    /*om de bulletpoints weg te halen heb ik er een flex van gemaakt, zou ook met list-style kunnen */
+    display: flex;
+}
+li a {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+/*header*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    flex-grow: 3;
+    overflow: auto;
+}
+
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    overflow: auto;
+}
+
+/*content*/
+
+main {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    padding-block: 25px;
+}
+.card {
+    flex-basis: auto;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-placeholder {
+    max-width: 100%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users {
+    width: 20px;
+}
+
+/*footer*/
+
+footer {
+    background: #383838;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-block: 15px;
+    font-size: 15px;
+}
